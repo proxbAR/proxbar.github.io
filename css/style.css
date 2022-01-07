@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  line-height: 1.6em;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  color: #2d3748;
+  line-height: 1.6em;
+  height: 100%;
+}
+
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.minicontainer {
+  width: 65%;
+  margin: auto;
+}
+
+.main-nav .current a {
+  color: #ff0000;
+}
+
+.main-nav .hamMenu,
+.main-nav label {
+  display: none;
+}
+
+.main-nav .resume a {
+  background-color: #c10000;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.main-nav .resume a:hover {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+nav {
+  /*background-color: #eee;*/
+  background-color: #fff;
+  opacity: 0.8;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  border-bottom: 3px solid #ccc;
+}
+
+nav .main-nav {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .main-nav h1 a {
+  text-decoration: none;
+  color: #000;
+  /*font-family: Helvetica;*/
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  cursor: pointer;
+  padding-right: 0px;
+}
+
+nav .main-nav ul {
+  list-style: none;
+}
+
+nav .main-nav ul li {
+  display: inline;
+  padding: 0 20px;
+}
+
+nav .main-nav ul li a {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  opacity: 1;
+  transition: all 0.2s;
+}
+
+nav .main-nav ul li a:hover {
+  color: #ff0000;
+}
+
+/* PROJECT CSS */
+.projbg {
+  background-color: #ddd;
+  padding: 20px;
+}
+
+.mainprojcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15vh;
+}
+
+.minicontainer .mainprojcontainer .projdiv {
+  margin-bottom: 30px;
+  /* background-color: #88b4d4; */
+  /* background-color: #0470a8; */
+  /* background-color: #c10000; */
+  background-color: #962d3e;
+  /* background-color: #910F27; */
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  transition: 0.5s;
+  box-shadow: 0 3px 5px #888888;
+}
+
+.minicontainer .mainprojcontainer .projdiv .numdiv {
+  /* padding: 10px; */
+  padding-left: 10px;
+  /* background-color: #083454; */
+}
+
+/* .numdiv h2{
+    padding:0;
+    margin:0;
+} */
+
+.minicontainer .mainprojcontainer .projdiv .descdiv {
+  width: 60%;
+  padding-left: 30px;
+  border-left: 2px solid white;
+}
+.minicontainer .mainprojcontainer .projdiv .linkdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-right: 10px;
+}
+
+.linkdiv a {
+  margin-top: 10px;
+}
+
+/* .linkdiv a:hover{
+    
+} */
+
+/* .projbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    padding:5px 10px;
+    margin-bottom: 4px;  */
+/* background-color: var(--light-theme); */
+/* cursor: pointer;
+    font-size: 24px;
+    color: var(--color);
+    transition: all 0.3s; */
+/* position: relative; */
+/* text-align: center;
+    overflow: hidden;
+    border: none; */
+/* background-color: #910F27; */
+/* background-color: #343642; */
+/* border-radius: 5px; */
+/* box-shadow: 0 6px 30px -10px rgba(#CCCCCC, 1); */
+/* } */
+
+/* .projbtn:hover {
+    transform: translateX(5px) translateY(-3px);
+  } */
+
+/* .linkdiv h2{
+    padding:0;
+    margin:0;
+} */
+
+.minicontainer .mainprojcontainer .projdiv:hover {
+  box-shadow: 0 0 18px #888;
+  transition: 0.5s;
+  transform: translateX(0px) translateY(-9px);
+}
+
+#main-content {
+  height: 100%;
+  margin: 0;
+  /* background-color: #343642; */
+}
+
+.common {
+  height: 100%;
+  padding: 10px;
+}
+
+.smallScreenHamMenu {
+  display: none;
+  height: 100%;
+  margin: 0;
+}
+
+.smallScreenHamMenu .hamMenuDropDown {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.smallScreenHamMenu .hamMenuDropDown div {
+  margin-bottom: 50px;
+}
+
+.smallScreenHamMenu .hamMenuDropDown div h2 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 2rem;
+}
+
+#main-content .first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-content .first h1 {
+  font-size: 12vmin;
+  text-align: center;
+  line-height: 1em;
+  margin: 20px 100px;
+}
+
+#main-content .contactImages {
+  display: flex;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#main-content .contactImages .images {
+  text-align: center;
+  min-width: 25%;
+}
+
+#main-content .contactImages .images a {
+  text-decoration: none;
+  color: #000;
+}
+
+#main-content .contactImages .images a img {
+  width: 20vh;
+}
+
+#main-content .resume-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-content .resume-btn .down-btn h2 a {
+  text-decoration: none;
+  background-color: #c20;
+  color: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  transition: 0.2s ease-in;
+}
+
+#main-content .resume-btn .down-btn h2 a:hover {
+  background-color: #e20;
+}
+
+@media (max-width: 835px) {
+  nav .main-nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  nav .main-nav ul {
+    display: none;
+  }
+
+  .minicontainer {
+    width: 85%;
+    margin: auto;
+  }
+
+  .main-nav label {
+    display: inline;
+    position: fixed;
+    right: 20px;
+    font-size: 30px;
+    color: #b00;
+  }
+
+  #main-content .contactImages {
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  #main-content .contactImages .images {
+    min-width: 50%;
+    margin-bottom: 20px;
+  }
+  #main-content .contactImages .images a img {
+    width: 20vh;
+  }
+
+  .minicontainer .mainprojcontainer .projdiv {
+    flex-direction: column;
+  }
+
+  .minicontainer .mainprojcontainer .projdiv .numdiv {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .minicontainer .mainprojcontainer .projdiv .descdiv {
+    width: 100%;
+    border-left: 0;
+    padding-left: 0;
+    border-top: 2px solid white;
+  }
+
+  .minicontainer .mainprojcontainer .projdiv .linkdiv {
+    padding-right: 0;
+    text-align: center;
+    flex-direction: row;
+    margin-top: 0;
+    justify-content: space-around;
+  }
+}
