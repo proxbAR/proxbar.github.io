@@ -1,6 +1,6 @@
 var typed = new Typed('.first',{
-  strings:["<h1>Hello.</h1>","<h1>I'm Anand.</h1>","<h1>I'm a <strong>Cloud Engineer</strong>,</h1>","<h1><strong>Web Developer</strong>,</h1>","<h1>And <strong>Graphic Designer.</strong></h1>","<h1>Welcome to my website!</h1>"],
-  backSpeed: 50,
-  typeSpeed: 50,
+  strings:["<h1>Hello.<br />I'm Anand.</h1>","<h1>I'm a Cloud Engineer<br />and<br />Web Developer.","<h1>Welcome to my website!</h1>"],
+  backSpeed: 15,
+  typeSpeed: 35,
   loop: true
 });
